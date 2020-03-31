@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS_Fundamentals_Assignment_02</title>
+</head>
+<body>
+
+    <script>
+
+    function oper() {
+        var ch = parseInt(prompt("Enter your choice 1.Addition 2.Subtraction 3.Multiplication 4.Division "));
+        switch (ch) {
+            case 1: var v1 = parseInt(prompt("Enter the first value "));
+                var v2 = parseInt(prompt("Enter the second value "));
+                var v3 = v1 + v2;
+                document.write("Addition: " + v3);
+                break;
+            case 2: var v4 = parseInt(prompt("Enter the first value "));
+                var v5 = parseInt(prompt("Enter the second value "));
+                var v6 = v4 - v5;
+                document.write("Subtraction: " + v6);
+                break;
+            case 3: var v7 = parseInt(prompt("Enter the first value "));
+                var v8 = parseInt(prompt("Enter the second value "));
+                var v9 = v7 * v8;
+                document.write("Multiplication:  " + v9);
+                break;
+            case 4: var v10 = parseInt(prompt("Enter the first value "));
+                var v11 = parseInt(prompt("Enter the second value "));
+                var v12 = v10 / v11;
+                document.write("Divison: " + v12);
+                break;
+
+            default: document.write("Please enter your choice correctly. ");
+        }
+
+    }
+
+    oper() 
+
+    
+    
+    
+    </script>
+    
+</body>
+</html>
